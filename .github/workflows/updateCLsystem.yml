@@ -2,7 +2,7 @@ name: Update Changelog
 
 on:
   push:
-    branches: [persistence_testing]
+    branches: [staging-stable]
 
 permissions:
   contents: write
