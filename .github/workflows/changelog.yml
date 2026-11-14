@@ -21,7 +21,7 @@ jobs:
       - name: Install changelog tool
         run: dotnet tool install --global SpaceWizards.ChangelogTool
 
-      - name: Update changelog
+      - name: Update changelog   
         env:
           REPO: ${{ github.repository }}
           CHANGELOG_REPO_PATH: Resources/Changelog
