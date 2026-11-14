@@ -10,10 +10,10 @@ namespace Content.Client._Starfall.Particles;
 /// Created in <see cref="ParticleSystem"/>.
 /// </summary>
 public sealed class ActiveEmitter
-{
-    public ParticleEffectPrototype Proto = default!;
+{ 
+    public ParticleEffectPrototype Proto = default!; 
 
-    /// <summary>
+    /// <summary> 
     /// How many sub-emitter links deep this emitter is. Root emitters are 0.
     /// Sub-emitters will not spawn if depth would exceed <see cref="ParticleSystem.MaxSubEmitterDepth"/>.
     /// </summary>
