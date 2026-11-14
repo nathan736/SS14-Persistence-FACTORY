@@ -28,7 +28,7 @@ jobs:
           PRIMARY_CHANGELOG: Changelog
           EXTRA_CATEGORIES: Admin,Maps,Rules
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: ss14-changelog -- update -d Resources/Changelog -s ${{ github.event.before }}
+        run: ss14-changelog update -d Resources/Changelog -s ${{ github.event.before }}
 
       - name: Commit
         run: |
