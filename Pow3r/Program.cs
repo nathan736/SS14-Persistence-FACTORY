@@ -29,7 +29,7 @@ namespace Pow3r
         }
 
         private static readonly GLFWCallbacks.ErrorCallback ErrorCallback = GlfwErrorCallback;
-
+         
         private static void GlfwErrorCallback(ErrorCode error, string description)
         {
             Console.WriteLine($"{error}: {description}");
